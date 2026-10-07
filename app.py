@@ -57,8 +57,6 @@ if image_uploader:
     st.divider()
 
     with st.container():
-        col1,col2 = st.columns(2)
-        with col1:
             st.markdown("""
 
                 <style>
@@ -81,7 +79,7 @@ if image_uploader:
                                 <p><b>Output:</b> Cat or Dog</p>
                 </div>
             """,unsafe_allow_html=True)
-        with col2:
+            st.write(" ")
             st.markdown("""
                     <div class='card1'>
                         <h3>📊 Model Performance</h3>

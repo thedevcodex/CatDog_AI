@@ -80,7 +80,7 @@ if image_uploader:
             st.write(" ")
             st.markdown("""
                     <div class='card1'>
-                        <h3>📊 Model Performance</h3>
+                        <h3>Model Performance</h3>
                         <p>Training Accuracy: 83.20%</p>
                         <p>Validation Accuracy: 74.06%</p>
                         <p>Test Accuracy: 74.50%</p>
@@ -88,6 +88,7 @@ if image_uploader:
 
             """,unsafe_allow_html=True)
     st.divider()    
+    st.caption("Note: Predictions may not always be accurate. This application is for educational purposes only.")
     st.caption("Built by thedevcodex")
     
 

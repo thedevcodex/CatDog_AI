@@ -62,8 +62,6 @@ if image_uploader:
                 <style>
                 
                     .card1{
-                        width: 600px;
-                        height: 250px;
                         background-color: green;
                         padding: 20px;
                         border-radius: 15px;

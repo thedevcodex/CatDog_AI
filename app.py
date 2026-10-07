@@ -56,7 +56,7 @@ if image_uploader:
                 st.success("Cat")
     st.divider()
 
-    with st.container(width="stretch"):
+    with st.container():
             st.markdown("""
 
                 <style>
